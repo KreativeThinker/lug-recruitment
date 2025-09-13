@@ -26,7 +26,7 @@ export default function LoginPage() {
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {
-          redirectTo: "https://anumeya.com/lug-recruitment/auth/callback",
+          redirectTo: "https://lug-recruitment.vercel.app/auth/callback",
           // redirectTo: "http://localhost:3000/auth/callback",
         },
       });
