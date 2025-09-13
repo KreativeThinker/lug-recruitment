@@ -9,8 +9,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/lug-recruitment",
-  assetPrefix: "/lug-recruitment/",
 };
 
 export default nextConfig;
